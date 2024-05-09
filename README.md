@@ -19,8 +19,6 @@ SQLAugment 라이브러리는 자연어 질의와 관련된 유사 질문, 쿼�
 ## 라이브러리 사용 예
 ### 1. SQLAugmenter_AnnoyBuilder 선행작업 필요
 
-[SQLAugmenter_AnnoyBuilder](https://gitlab.saltlux.com/product-group/luxia/2023_sqlaugmenter/sqlaugmenter_annoybuilder)
-
 ### 2. SQLAugmenter_config 파일 설정
 
 SQLAugmenter 라이브러리를 사용하기 위해서는 `SQLAugmenter_config` 파일을 설정해야 합니다.
@@ -31,7 +29,7 @@ SQLAugmenter 라이브러리를 사용하기 위해서는 `SQLAugmenter_config` 
 
 ```properties
 similar.query.dataset.path=src/main/resources/similar_query_dataset.json
-vectorise.api.url=http://211.109.9.224:3378/api/v1/sbert/vectorise
+vectorise.api.url=http://ip주소/vectorise
 vectorise.dimension=768
 annoy.ANGULAR.filePath=src/main/resources/points.angular.annoy
 annoy.EUCLIDEAN.filePath=src/main/resources/points.euclidean.annoy
