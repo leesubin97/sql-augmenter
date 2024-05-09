@@ -4,8 +4,8 @@ SQLAugment 라이브러리는 자연어 질의와 관련된 유사 질문, 쿼�
 
 ## 환경 설정
 
-- **Java Version**: Java 1.8
-- **빌드 도구**: Gradle
+- **Java Version**: Java 17
+- **빌드 도구**: Gradle 7.3
 
 ## Dependency Lib
 
@@ -18,6 +18,7 @@ SQLAugment 라이브러리는 자연어 질의와 관련된 유사 질문, 쿼�
 
 ## 라이브러리 사용 예
 ### 1. SQLAugmenter_AnnoyBuilder 선행작업 필요
+python annoy 인덱스 생성 필요
 
 ### 2. SQLAugmenter_config 파일 설정
 
